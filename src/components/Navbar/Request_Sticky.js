@@ -37,7 +37,7 @@ class Request_Sticky extends Component {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: this.encode({ "form-name": "contact", ...this.state })
+      body: this.encode({ "form-name": "request", ...this.state })
     })
       .then(() => alert("Success!"))
       .catch(error => alert(error));
@@ -55,7 +55,10 @@ class Request_Sticky extends Component {
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
           <ModalHeader toggle={this.toggle}>Request a Lesson/Availability</ModalHeader>
           <ModalBody>
-            <form>
+            <form onSubmit={this.handleSubmit}>
+              <p className="bot-field">
+                <label>Don’t fill this out: <input name="bot-field"/></label>
+              </p>
               <div>
                 <label htmlFor="firstname">First Name: <br/></label> 
                 <input onChange={this.handleChange} type="text" name="firstname"/>
@@ -76,7 +79,7 @@ class Request_Sticky extends Component {
             </form>
           </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.handleSubmit} >Submit Request</Button>
+            <Button type="submit" color="primary" >Submit Request</Button>
             <Button color="secondary" onClick={this.toggle}>Cancel</Button>
           </ModalFooter>
         </Modal>

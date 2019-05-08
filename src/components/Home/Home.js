@@ -4,10 +4,7 @@ import TeachingStyle from './Teaching'
 import Testimonials from './Testimonials'
 import Experience from './Experience'
 import Gallery from './Gallery'
-import BannerImg from '../../images/banner10.png'
-import Navbar from '../Navbar/Navbar'
-import Header from '../Navbar/Header'
-import CrissStanding from '../../images/crissStanding.png'
+
 
 const Home = () => {
   return (

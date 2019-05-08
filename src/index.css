@@ -467,6 +467,9 @@ footer{
     -o-transform-origin: top right;
 }
 
+.bot-field{
+  display:none;
+}
 /*************************************** TIMELINE ***************************************/
 
 
