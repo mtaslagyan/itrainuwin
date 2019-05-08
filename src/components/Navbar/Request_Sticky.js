@@ -55,7 +55,7 @@ class Request_Sticky extends Component {
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
           <ModalHeader toggle={this.toggle}>Request a Lesson/Availability</ModalHeader>
           <ModalBody>
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} name="request" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
               <p className="bot-field">
                 <label>Don’t fill this out: <input name="bot-field"/></label>
               </p>
@@ -75,13 +75,10 @@ class Request_Sticky extends Component {
                 <label htmlFor="age">Age: <br/></label> 
                 <input onChange={this.handleChange} type="number" name="age"/>
               </div>
-              
+              <Button type="submit" color="primary" >Submit Request</Button>
+              <Button color="secondary" onClick={this.toggle}>Cancel</Button>
             </form>
           </ModalBody>
-          <ModalFooter>
-            <Button type="submit" color="primary" >Submit Request</Button>
-            <Button color="secondary" onClick={this.toggle}>Cancel</Button>
-          </ModalFooter>
         </Modal>
       </div>
     );

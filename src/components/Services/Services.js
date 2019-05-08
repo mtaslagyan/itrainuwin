@@ -1,5 +1,4 @@
 import React from 'react'
-import Cones from '../../images/cones.jpg'
 import {Link} from 'react-router-dom'
 import Single from '../../images/1man.png'
 import Double from '../../images/2men.png'
