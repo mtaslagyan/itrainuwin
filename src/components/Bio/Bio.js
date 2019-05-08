@@ -1,8 +1,4 @@
 import React from 'react'
-import bio1 from '../../images/bio1.jpg'
-import bio2 from '../../images/bio2.jpg'
-import bio3 from '../../images/bio3.jpg'
-import bio4 from '../../images/bio4.jpg'
 import Awards from './Awards'
 
 
