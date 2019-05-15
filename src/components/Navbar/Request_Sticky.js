@@ -137,8 +137,8 @@ import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
 class Request_Sticky extends Component {
   state = {
       modal: false,
-      firstname : null,
-      lastname : null,
+      name : null,
+      email : null,
       lessontype: null,
       age: null,
     }
@@ -192,12 +192,12 @@ class Request_Sticky extends Component {
                 <label>Don’t fill this out: <input name="bot-field"/></label>
               </p>
               <div>
-                <label htmlFor="firstname">First Name: <br/></label> 
-                <input onChange={this.handleChange} type="text" name="firstname"/>
+                <label htmlFor="name">Name: <br/></label> 
+                <input onChange={this.handleChange} type="text" name="name"/>
               </div>
               <div>
-                <label htmlFor="lastname">Last Name: <br/></label> 
-                <input onChange={this.handleChange} type="text" name="lastname"/>
+                <label htmlFor="email">Email: <br/></label> 
+                <input onChange={this.handleChange} type="email" name="email"/>
               </div>
               <div>
                 <label htmlFor="lessontype">Lesson Type: <br/></label> 
