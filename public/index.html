@@ -29,6 +29,36 @@
     <title>React App</title>
   </head>
   <body>
+      <!-- <form onSubmit={this.handleSubmit} name="request" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
+        <p className="bot-field">
+          <label>Don’t fill this out: <input name="bot-field"/></label>
+        </p>
+        <div>
+          <label htmlFor="name">Name: <br/></label> 
+          <input onChange={this.handleChange} type="text" name="name"/>
+        </div>
+        <div>
+          <label htmlFor="email">Email: <br/></label> 
+          <input onChange={this.handleChange} type="email" name="email"/>
+        </div>
+        <div>
+          <label htmlFor="lessontype">Lesson Type: <br/></label> 
+          <input onChange={this.handleChange} type="text" name="lessontype"/>
+        </div>
+        <div>
+          <label htmlFor="age">Age: <br/></label> 
+          <input onChange={this.handleChange} type="number" name="age"/>
+        </div>
+        <Button type="submit" color="primary" >Submit Request</Button>
+        <Button color="secondary" onClick={this.toggle}>Cancel</Button>
+      </form> -->
+    <form data-netlify="true" hidden name="request" netlify-honeypot="bot-field">
+      <input name="bot-field" type="hidden" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="lessontype" />
+      <input type="number" name="age" />
+    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
