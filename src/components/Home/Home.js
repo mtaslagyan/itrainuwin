@@ -11,8 +11,8 @@ const Home = () => {
     <div>
       <Banner/>      
       <div className="container">
-        <div className="styleAndExperience"><div className="col-12 mt-5 pt-5"><TeachingStyle/></div>
-            <div className="col-12 mt-5 pt-2"><Experience/></div>
+        <div className="styleAndExperience"><div className="col-12 mt-sm-5 mt-0 pt-md-5 pt-0"><TeachingStyle/></div>
+            <div className="col-12 mt-sm-5 mt-0 pt-md-5 pt-0"><Experience/></div>
             
         </div>
       </div>

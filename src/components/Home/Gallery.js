@@ -16,7 +16,7 @@ import gal12 from '../../images/gal12.jpeg'
 const Gallery = () => {
   return (
     <div>
-      <div className="col-12 gallery">
+      <div className="col-12 gallery px-0">
           <img data-aos="zoom-in" data-aos-duration="500" src={gal1} alt=""/>
           <img data-aos="zoom-out" data-aos-duration="500" src={gal2} alt=""/>
           <img data-aos="zoom-in" data-aos-duration="500" src={gal3} alt=""/>

@@ -1,4 +1,4 @@
-body {
+body, html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -8,7 +8,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+button{
+  overflow-x:hidden;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -132,7 +134,6 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   font-size:56px;
   font-family: "Gruppo";
   color:white;
-  
 }
 .navbar-logo:hover{
  text-decoration:none;
@@ -337,13 +338,6 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   color:rgb(0, 158, 47);
   font-size:18px;
 }
-/* 
-.testimonials img{
-  border-radius:50%;
-  width:150px;
-  display:block;
-  margin: 50px auto;
-} */
 
 /********************************** SERVICES AND PRICE HOME  ************************************/
 
@@ -400,10 +394,6 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   color:#2080c4;
   font-size:36px;
 }
-.cones{
-  width:150px;
-  border-radius:15px;
-}
 .services ul{
   list-style-position: inside;
 }
@@ -412,7 +402,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   border-bottom: solid 1px grey;
 }
 .SP-requestBtn{
-  margin-top:100px;
+  margin-top:25px;
   font-family: "Avenir";
   color:rgba(255, 255, 255, 0.892);
   background:#2080c4;
@@ -472,7 +462,6 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   color:black;
   font-family: "Nunito";
   font-weight: 200;
-
 }
 .award-title{
   color:rgb(7, 32, 85); 
@@ -729,9 +718,9 @@ input{
 /* for EXP bubbles */
 @media (max-width: 1253px)
 { 
-  /* body{
+  body{
     background:pink;
-  } */
+  }
   .exp-middleLeft{
     margin-left:-50px;
     margin-right:100px;
@@ -745,14 +734,14 @@ input{
 /* large */
 @media (max-width: 1199px)
 { 
-  /* body{
+  body{
     background:green;
-  } */
+  }
   .navbar-contact-info{
     margin-top:50px;
   }
   .homeImg{
-    width: auto;
+    object-fit: cover;
     height: 100vh;
   }
   .crissStanding{
@@ -773,14 +762,17 @@ input{
   .quotesImageEnd{
     margin-left:130px;
   }
+  .services-offered{
+    font-size:20px;
+  }
 }
 
 /* for EXP bubbles */
 @media (max-width: 1100px)
 { 
-  /* body{
+  body{
     background:orange;
-  } */
+  }
   .exp-middleLeft{
     margin-left:-50px;
     margin-right:100px;
@@ -794,9 +786,9 @@ input{
 /* medium */
 @media (max-width: 991.98px)
 { 
-  /* body{
+  body{
     background:red;
-  } */
+  }
   .query-nav{
     display:none;
   }
@@ -837,15 +829,40 @@ input{
   .quotesImageEnd{
     margin-left:310px;
   }
+  .services{
+    margin-top:200px;
+  }
+  .SP-title{
+    font-size:32px;
+  }
+  .SP-intro{
+    margin-top:50px;
+    font-size:22px;
+  }
+  .services-offered{
+  font-size:24px;
+  }
+  .SP-requestBtn{
+    font-size:24px;
+  }
+  .Bio-title{
+    font-size:30px;
+  }
+  .qualifications li{
+    font-size:18px;
+  }
+  .awards{
+    margin-top:140px;
+  }
 }
 
 
 /* small */
 @media (max-width: 767px)
 { 
-  /* body{
+  body{
     background:blue;
-  } */
+  }
   .nav-number{
     display:none;
   }
@@ -869,19 +886,219 @@ input{
   .quotesImageEnd{
     margin-left:170px;
   }
+  .SP_home{
+    margin-top:100px;
+  }
+  .services img{
+    width:80px;
+  }
+  .services-offered{
+    font-size:20px;
+  }
+  .pricing-info{
+    font-size:20px;
+  }
+  .SP-requestBtn{
+    font-size:20px;
+  }
+  .req_sticky-btn{
+    display:none;
+  }
+  .Bio-home{
+    margin-top:40px;
+  }
+  .awards{
+    margin-top:100px;
+  }
 }
 
 /* XS */
 @media (max-width: 424px)
 { 
-  /* body{
+  body{
     background:purple;
-  } */
+  }
+  .navbar-logo{
+    font-size:46px;
+  }
+  .navbar-phone{
+    font-size:18px;
+  }
+  .navbar-requestLesson, 
+  .navbar-home, 
+  .navbar-pricing, 
+  .navbar-bio{
+    font-size:16px;
+  }
   .req_sticky-btn{
     font-size:16px;
   }
   .gallery img{
     width:33.33333333333333%;
+  }
+  .title{
+    font-size:20px;
+  }
+  .intro{
+    font-size:16px;
+  }
+  .onlineorcall{
+    color:rgb(219, 219, 219);
+    font-size:12px;
+  }
+  .banner-requestBtn{
+    font-size:14px;
+    padding: 10px 20px;
+  }
+  .navbar-contact-info{
+    font-size:12px;
+  }
+  .banner .fab{
+    font-size:18px;
+  }
+  .navbar-divider{
+    margin-bottom:0;
+  }
+  .teachingStyle-title{
+    font-size:24px;
+    margin-top:-30px;
+  }
+  .teachingStyle-intro{
+    font-size:18px;
+    width:100%;
+    margin-left:0;
+  }
+  .experience-title{
+    font-size:24px;
+    margin-top:30px;
+  }
+  .experience-content{
+    font-size:18px;
+  }
+  .experience-listed{
+    margin-top:40px;
+  }
+  .experience-listed li{
+    margin-left:0px;
+    margin-right:0px;
+  }
+  .crissStanding{
+    margin-top:40px;
+    width:80%;
+    margin-left:10%;
+  }
+  .testimonials-title{
+    font-size:24px;
+    margin-top:80px;
+  }
+  
+  .testimonials-divider{
+    margin: 10px auto;
+  }
+  
+  .testimonials .cardOnLeft{
+    margin-left:0;
+    width:100%;
+    border: none;
+  }
+  
+  .testimonials .cardOnRight{
+    margin-top:100px;
+    margin-left:0;
+    width:100%;
+  }
+  
+  .quotesImageEnd{
+    margin-left:150px;
+  }
+  .card-body{
+    padding:0;
+  }
+  
+  .testimonials-quotes{
+    font-family: 'Passion One';
+    font-size: 150px;
+    color:rgb(194, 243, 255);
+  }
+  
+  .testimonials-content{
+    margin-top: -120px;
+    font-family: "Nunito";
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom:30px;
+  }
+  
+  .testimonials-nameLeft{
+    font-weight: 500;
+    color:rgb(2, 159, 199);
+    font-size:18px;
+  }
+  
+  .testimonials-nameRight{
+    font-weight: 500;
+    color:rgb(0, 158, 47);
+    font-size:18px;
+  }
+  footer{
+    margin-top:120px;
+    color:white;
+    padding:50px;
+    background: linear-gradient(bottom, rgb(0, 0, 0), #214e6f)
+  }
+  .footer-title{
+    font-family: "Gruppo";
+    font-size:40px;
+  }
+  .footer-div{
+    width: 80%;
+    background:white;
+  }
+  
+  .footer-social-media i{
+    color:white;
+    font-size:30px;
+  }
+  
+  .locations, .footer-contact{
+    font-size:20px;
+    font-family: 'Mukta', sans-serif;
+  }
+  .footer-number{
+    color:white;
+  }
+  .footer-number:hover{
+    color:rgb(182, 207, 253);
+    text-decoration:none;
+  }
+  .footer-email{
+    color:white;
+  }
+  .footer-email:hover{
+    color:rgb(182, 207, 253);
+    text-decoration:none;
+  }
+}
+
+/* XXS */
+@media (max-width: 320px)
+{ 
+  body{
+    background:rgb(87, 245, 245);
+  }
+  .navbar-logo{
+    font-size:46px;
+    font-family: "Gruppo";
+    color:white;
+  }
+  .req_sticky-btn{
+    font-size:16px;
+  }
+  .gallery img{
+    width:33.33333333333333%;
+  }
+  .quotesImageEnd{
+    margin-left:80px;
   }
 }
 

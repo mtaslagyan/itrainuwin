@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="row">
                 <div className="col-12 text-center pb-5 mt-3 footer-social-media">
                     <a target="_blank" href="https://www.instagram.com/itrainuwin/"><i class="fab fa-instagram"></i></a>      
-                    <a target="_blank" href="https://www.linkedin.com/in/criss-rodriguez-192a22a8"><i class="fab fa-linkedin mx-5"></i></a>     
+                    <a target="_blank" href="https://www.linkedin.com/in/criss-rodriguez-192a22a8"><i class="fab fa-linkedin mx-sm-5 mx-3"></i></a>     
                     <a target="_blank" href="https://www.facebook.com/criss.rodriguez.75"><i class="fab fa-facebook-square"></i></a>  
                 </div>
             </div>

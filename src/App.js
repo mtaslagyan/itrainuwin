@@ -5,7 +5,7 @@ import Home from './components/Home/Home'
 import Footer from './components/Footer/Footer'
 import Services from './components/Services/SP_Home'
 import BannerImg from './images/crissbanner4.png'
-import Bio from './components/Bio/Bio'
+import Qualifications from './components/Bio/Qualifications'
 import Request_Sticky from './components/Navbar/Request_Sticky'
 
 
@@ -21,7 +21,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" activeStyle={{ color: 'red' }} component={Home}/>
             <Route exact path="/services" activeStyle={{ color: 'red' }} component={Services}/>
-            <Route exact path="/qualifications" activeStyle={{ color: 'red' }} component={Bio}/>
+            <Route exact path="/qualifications" activeStyle={{ color: 'red' }} component={Qualifications}/>
           </Switch>
           <Footer/>
         </div>

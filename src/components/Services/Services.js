@@ -57,77 +57,68 @@ class Services extends Component {
             <div className="col-12 services-info">
                 <h2 className="mb-5 services-title">Services</h2>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-lg-6 col-12">
                        <div><img className="mr-4" src={Single} data-aos="flip-right" data-aos-duration="1000" alt=""/> <span className="services-offered">Private Lessons</span></div> 
                     </div>
-                    <div className="col-6">
+                    <div className="col-lg-6 col-12 mt-5 mt-lg-0">
                        <div><img className="mr-4" src={Double} data-aos="flip-right" data-aos-duration="1000" alt=""/> <span className="services-offered">Semi-Private Lessons</span></div> 
                     </div>
                 </div>
                 <div className="row my-5">
-                    <div className="col-6">
+                    <div className="col-lg-6 col-12">
                        <div><img className="mr-4" src={Group} data-aos="flip-right" data-aos-duration="1000" alt=""/> <span className="services-offered">Group Lessons (3+ players)</span></div> 
                     </div>
-                    <div className="col-6">
+                    <div className="col-lg-6 col-12 mt-5 mt-lg-0">
                        <div><img className="mr-4" src={Clinic} data-aos="flip-right" data-aos-duration="1000" alt=""/> <span className="services-offered">Clinics (competition, fitness, skill)</span></div> 
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-lg-6 col-12">
                        <div><img className="mr-4" src={Cardio} data-aos="flip-right" data-aos-duration="1000" alt=""/> <span className="services-offered">Cardio Tennis (aerobic workout)</span></div> 
                     </div>
-                    <div className="col-6">
+                    <div className="col-lg-6 col-12 mt-5 mt-lg-0">
                        <div><img className="mr-4" src={Weights} data-aos="flip-right" data-aos-duration="1000" alt=""/> <span className="services-offered">Footwork and Weight Training</span></div> 
                     </div>
                 </div>
-                {/* <ul className="services-offered">
-                    <li>Private Lessons</li>
-                    <li>Semi-Private</li>
-                    <li>Group Lessons (3+ players)</li>
-                    <li>Clinics (focus on competition, fitness, skill development)</li>
-                    <li>Cardio Tennis (aerobic workout while doing drills)</li>
-                    <li>Footwork/Weight training (tennis oriented)</li>
-                </ul> */}
-                {/* <img className="cones" src={Cones} alt=""/> */}
             </div>
         </div>
         <div className="row">
 
             <div className="col-12 mt-5">
-                <div className="pricing ">
+                <div className="pricing">
                     <hr/>
                     <h2 className="my-5 pricing-title">Pricing</h2>
                     
                     <div className="pricing-info">
                         <div className="row price-item">
-                            <div className="col-6">
+                            <div className="col-9">
                                 <div>Private Lesson </div>
                             </div>
-                            <div className="col-6 d-flex justify-content-end">
+                            <div className="col-3 d-flex justify-content-end">
                                 <div>$75</div>
                             </div>
                         </div>
                         <div className="row mt-3 price-item">
-                            <div className="col-6">
+                            <div className="col-9">
                                 <div>Semi Private </div>
                             </div>
-                            <div className="col-6  d-flex justify-content-end">
+                            <div className="col-3  d-flex justify-content-end">
                                 <div>$40/player</div>
                             </div>
                         </div>
                         <div className="row mt-3 price-item">
-                            <div className="col-6">
+                            <div className="col-9">
                                 <div>Group Lesson/Clinics (3+ players) </div>
                             </div>
-                            <div className="col-6 d-flex justify-content-end">
+                            <div className="col-3 d-flex justify-content-end">
                                 <div>$25/player</div>
                             </div>
                         </div>
                         <div className="row mt-3 price-item">
-                            <div className="col-6">
+                            <div className="col-9">
                                 <div>Hitting Sessions </div>
                             </div>
-                            <div className="col-6 d-flex justify-content-end">
+                            <div className="col-3 d-flex justify-content-end">
                                 <div>$60</div>
                             </div>
                         </div>

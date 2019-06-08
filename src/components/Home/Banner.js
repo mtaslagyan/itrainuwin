@@ -58,7 +58,7 @@ class Banner extends Component {
             <h2 className="intro">
                 Through high-level instruction in stroke technique, strategies/tactics, and match play. I am commited to helping you reach your full potential.
             </h2>
-            <div className="mt-5 onlineorcall">Request a lesson by form or call phone directly.</div>
+            <div className="mt-sm-5 mt-4 onlineorcall">Request a lesson by form or call phone directly.</div>
             <div className="banner-btnWrap">
                 <Button className="banner-requestBtn" onClick={this.toggle}>Request Lesson</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle}>

@@ -12,7 +12,7 @@ const Testimonials = () => {
       <div className="row">
         <div className="col-lg col-12">
             {/* <img src={woman1} alt=""/> */}
-            <div className="card cardOnLeft" data-aos="slide-right" data-aos-duration="1000">
+            <div className="card cardOnLeft" data-aos="fade-in" data-aos-duration="1000">
               <div className="card-body">
               <img src={quotesImage} alt=""/>
               {/* <span className="testimonials-quotes">"</span> */}
@@ -23,7 +23,7 @@ const Testimonials = () => {
         </div>
         <div className="col-lg col-12">
             {/* <img src={woman1} alt=""/> */}
-            <div className="card cardOnRight" data-aos="slide-left" data-aos-duration="1000">
+            <div className="card cardOnRight" data-aos="fade-in" data-aos-duration="1000">
               <div className="card-body">
               <img className="quotesImageEnd" src={quotesImageEnd} alt=""/>
               {/* <span className="testimonials-quotes">"</span> */}

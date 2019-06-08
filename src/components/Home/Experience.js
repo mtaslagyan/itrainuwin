@@ -24,9 +24,6 @@ const Experience = () => {
                   <li data-aos="fade-in" data-aos-duration="1500" className="mt-5 exp-middleRight">Working with top ranked juniors, ranked as high as Top 5 in their age group in Southern California.</li>
                   <li data-aos="fade-in" data-aos-duration="1500" className="mt-5">Training with recreational players who are in search of a great workout and a better approach to health-and-fitness.</li>
                 </div>
-                {/* <div id="div1" ></div>
-                <div id="div2" ></div> */}
-                {/* <svg width="500" height="500"><line x1="50" y1="50" x2="50" y2="50" stroke="#37a9fa"/></svg> */}
               </div>
             </div>
           </ul>
