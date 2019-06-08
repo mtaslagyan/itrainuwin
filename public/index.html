@@ -2,74 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta name="theme-color" content="#000000" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Mukta|Gruppo|Nunito|Josefin+Sans" rel="stylesheet">
-
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link href="https://fonts.googleapis.com/css?family=Mukta|Gruppo|Nunito|Josefin+Sans|Passion+One" rel="stylesheet">
+    <title>iTrainUwin</title>
+    <link rel="icon" href="https://www.minpic.net/k/7tcb/wtnds/">
   </head>
   <body>
-      <!-- <form onSubmit={this.handleSubmit} name="request" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
-        <p className="bot-field">
-          <label>Don’t fill this out: <input name="bot-field"/></label>
-        </p>
-        <div>
-          <label htmlFor="name">Name: <br/></label> 
-          <input onChange={this.handleChange} type="text" name="name"/>
-        </div>
-        <div>
-          <label htmlFor="email">Email: <br/></label> 
-          <input onChange={this.handleChange} type="email" name="email"/>
-        </div>
-        <div>
-          <label htmlFor="lessontype">Lesson Type: <br/></label> 
-          <input onChange={this.handleChange} type="text" name="lessontype"/>
-        </div>
-        <div>
-          <label htmlFor="age">Age: <br/></label> 
-          <input onChange={this.handleChange} type="number" name="age"/>
-        </div>
-        <Button type="submit" color="primary" >Submit Request</Button>
-        <Button color="secondary" onClick={this.toggle}>Cancel</Button>
-      </form> -->
+
     <form data-netlify="true" hidden name="request" netlify-honeypot="bot-field">
       <input name="bot-field" type="hidden" />
-      <input type="text" name="name" />
-      <input type="email" name="email" />
+      <input type="text" name="name" required/>
+      <input type="email" name="email" required/>
+      <input type="tel" name="phone"/>
+      <input type="text" name="location"/>
+      <input type="number" name="age"/>
       <input type="text" name="lessontype" />
-      <input type="number" name="age" />
+      <input type="text" name="notes" />
     </form>
+    
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
