@@ -17,18 +17,18 @@ const Gallery = () => {
   return (
     <div>
       <div className="col-12 gallery">
-          <img src={gal1} alt=""/>
-          <img src={gal2} alt=""/>
-          <img src={gal3} alt=""/>
-          <img src={gal4} alt=""/>
-          <img src={gal5} alt=""/>
-          <img src={gal6} alt=""/>
-          <img src={gal7} alt=""/>
-          <img src={gal8} alt=""/>
-          <img src={gal9} alt=""/>
-          <img src={gal10} alt=""/>
-          <img src={gal11}alt=""/>
-          <img src={gal12} alt=""/>
+          <img data-aos="zoom-in" data-aos-duration="500" src={gal1} alt=""/>
+          <img data-aos="zoom-out" data-aos-duration="500" src={gal2} alt=""/>
+          <img data-aos="zoom-in" data-aos-duration="500" src={gal3} alt=""/>
+          <img data-aos="zoom-out" data-aos-duration="500" src={gal4} alt=""/>
+          <img data-aos="zoom-in" data-aos-duration="500" src={gal5} alt=""/>
+          <img data-aos="zoom-out" data-aos-duration="500" src={gal6} alt=""/>
+          <img data-aos="zoom-in" data-aos-duration="500" src={gal7} alt=""/>
+          <img data-aos="zoom-out" data-aos-duration="500" src={gal8} alt=""/>
+          <img data-aos="zoom-in" data-aos-duration="500" src={gal9} alt=""/>
+          <img data-aos="zoom-out" data-aos-duration="500" src={gal10} alt=""/>
+          <img data-aos="zoom-in" data-aos-duration="500" src={gal11}alt=""/>
+          <img data-aos="zoom-out" data-aos-duration="500" src={gal12} alt=""/>
       </div>
     </div>
   )

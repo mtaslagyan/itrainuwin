@@ -43,13 +43,16 @@ code {
 
 /********************************** BANNER  ************************************/
 
+
 .homeImg{
   position:absolute;
+  width: 100%;
+  height: 100vh;
 }
 
 .banner{
   position:relative;
-  margin-top:130px;
+  margin-top:120px;
   animation-duration: 3s;
   animation-name: fadeIn;
 }
@@ -59,8 +62,6 @@ code {
   font-family: "Avenir";
   color:white;
   font-weight:200;
-  /* border-bottom: solid 1px rgba(255, 255, 255, 0.297);
-  padding-bottom:20px;   */
 }
 
 .intro{
@@ -73,7 +74,7 @@ code {
 }
 
 .banner-btnWrap{
-  margin-top:80px;
+  margin-top:30px;
 }
 
 .banner-requestBtn{
@@ -81,31 +82,44 @@ code {
   color:rgba(255, 255, 255, 0.892);
   background:#2080c4;
   text-decoration: none;
-  font-size:28px;
+  font-size:24px;
   border:solid rgba(255, 255, 255, 0.701) 1px; 
   border-radius:40px;
-  padding: 15px 25px;
+  padding: 12px 25px;
 }
 .banner-requestBtn:hover{
   color:white;
   text-decoration: none;
-  background:none;
+  background:#89c6f18f;
   /* border:transparent; */
 }
+.onlineorcall{
+  color:rgb(219, 219, 219);
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 /********************************** NAVBAR  ************************************/
-
+.active-link{
+  padding:10px 0px;
+  border-top:solid 1px #70c5eb;
+}
 
 .navbar{
   position:relative;
   animation-name:slideFromTop;
   animation-duration:2s;
 }
+
 .fa-phone{
   color:#37a9fa;
 }
+
 .navbar-contact-info{
-  margin-top:120px;
+  margin-top:80px;
   text-align:left;
 }
 .navbar-divider{
@@ -166,6 +180,12 @@ code {
   font-size:24px;
 }
 
+/* Nav Queries */
+
+.query-nav2{
+  display:none;
+}
+
 /********************************** STYLE AND EXP  ************************************/
 
 .styleAndExperience{
@@ -216,7 +236,6 @@ code {
   font-size:19px;
   color:#043559;
   font-family: 'Mukta', sans-serif;
-  
 }
 .experience-listed{
   margin-top:100px;
@@ -270,12 +289,61 @@ code {
   width:80%;
 }
 
+.testimonials .cardOnLeft{
+  color:rgb(44, 44, 44);
+  margin-left:10%;
+  width:80%;
+  background:rgb(240, 251, 255);
+  border-radius:50%;
+  border: none;
+}
+
+.testimonials .cardOnRight{
+  margin-top:250px;
+  color:rgb(44, 44, 44);
+  margin-left:10%;
+  width:80%;
+  background:rgb(241, 255, 240);
+  border-radius:50%;
+  border: none;
+}
+
+.quotesImageEnd{
+  margin-left:200px;
+}
+
+.testimonials-quotes{
+  font-family: 'Passion One';
+  font-size: 270px;
+  color:rgb(194, 243, 255);
+}
+
+.testimonials-content{
+  margin-top: -120px;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom:30px;
+}
+
+.testimonials-nameLeft{
+  font-weight: 500;
+  color:rgb(2, 159, 199);
+  font-size:18px;
+}
+
+.testimonials-nameRight{
+  font-weight: 500;
+  color:rgb(0, 158, 47);
+  font-size:18px;
+}
+/* 
 .testimonials img{
   border-radius:50%;
   width:150px;
   display:block;
   margin: 50px auto;
-}
+} */
 
 /********************************** SERVICES AND PRICE HOME  ************************************/
 
@@ -364,7 +432,7 @@ code {
 
 .Bio-home{
   position:relative;
-  margin-top:120px;
+  margin-top:100px;
   color:White;
   animation-duration: 3s;
   animation-name: fadeIn;
@@ -377,7 +445,7 @@ code {
   font-weight:200;
 }
 .Bio-intro{
-  margin-top:50px;
+  margin-top:20px;
   font-size:24px;
   font-family: "Nunito";
   width:90%;
@@ -389,7 +457,7 @@ code {
   width:25%;
 }
 .qualifications{
-  margin-top:55px;
+  margin-top:35px;
 }
 .qualifications li{
   margin-top:25px;
@@ -440,6 +508,20 @@ footer{
   font-size:24px;
   font-family: 'Mukta', sans-serif;
 }
+.footer-number{
+  color:white;
+}
+.footer-number:hover{
+  color:rgb(182, 207, 253);
+  text-decoration:none;
+}
+.footer-email{
+  color:white;
+}
+.footer-email:hover{
+  color:rgb(182, 207, 253);
+  text-decoration:none;
+}
 
 /************************************** REQUEST STICKY ***************************************/
 
@@ -452,7 +534,7 @@ footer{
     position: fixed;
     top: 40%;
     right: -1px;
-    background-color: rgb(230, 230, 230);
+    background-color: rgba(230, 230, 230, 0.699);
     border-radius: 10px;
     font-size: 20px;
     padding: 5px 10px;
@@ -470,6 +552,37 @@ footer{
 .bot-field{
   display:none;
 }
+
+form{
+  background:rgb(245, 245, 245);
+  border-radius:15px;
+  padding:10px;
+  color:rgb(48, 48, 48);
+}
+input{
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:5px;
+  padding-left:5px;
+  padding-right:5px;
+  border:solid 1px green;
+  text-align:center;
+}
+.form-fields{
+  margin-bottom:20px;
+}
+.form-header{
+  font-family: "Avenir";
+  color:white;
+  background:#28a745;
+}
+.form-required{
+  border:solid 3px green;
+}
+.form-response{
+  font-weight: 600;
+}
 /*************************************** TIMELINE ***************************************/
 
 
@@ -485,8 +598,8 @@ footer{
   font-family: 'Josefin Sans';
   color:rgb(79, 238, 79);
 }
-.timeline-title{
-}
+/* .timeline-title{
+} */
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
@@ -609,4 +722,168 @@ footer{
   left: 0%;
   }
 }
+
+
+/********************************************* MEDIA QUERIES *********************************************/
+
+/* for EXP bubbles */
+@media (max-width: 1253px)
+{ 
+  /* body{
+    background:pink;
+  } */
+  .exp-middleLeft{
+    margin-left:-50px;
+    margin-right:100px;
+  }
+  .exp-middleRight{
+    margin-right:-50px;
+    margin-left:100px;
+  }
+}
+
+/* large */
+@media (max-width: 1199px)
+{ 
+  /* body{
+    background:green;
+  } */
+  .navbar-contact-info{
+    margin-top:50px;
+  }
+  .homeImg{
+    width: auto;
+    height: 100vh;
+  }
+  .crissStanding{
+    margin-top:150px;
+    width:100%;
+  }
+  .experience-content{
+    font-size:18px;
+  }
+  .exp-middleLeft{
+    margin-left:-100px;
+    margin-right:100px;
+  }
+  .exp-middleRight{
+    margin-right:-100px;
+    margin-left:100px;
+  }
+  .quotesImageEnd{
+    margin-left:130px;
+  }
+}
+
+/* for EXP bubbles */
+@media (max-width: 1100px)
+{ 
+  /* body{
+    background:orange;
+  } */
+  .exp-middleLeft{
+    margin-left:-50px;
+    margin-right:100px;
+  }
+  .exp-middleRight{
+    margin-right:-50px;
+    margin-left:100px;
+  }
+}
+
+/* medium */
+@media (max-width: 991.98px)
+{ 
+  /* body{
+    background:red;
+  } */
+  .query-nav{
+    display:none;
+  }
+  .query-nav2{
+    display:block;
+  }
+  .title{
+    font-size:28px;
+  }
+  .banner{
+   margin-top:80px; 
+  }
+  .intro{
+    width:100%;
+    margin-left:0%;
+  }
+  .navbar-contact-info{
+    margin-top:30px;
+  }
+  .crissStanding{
+    width:50%;
+    margin-left:25%;
+    margin-top:100px;
+  }
+  .experience-listed li{
+    list-style-type: none;
+    list-style-position:inside;
+    margin-left:50px;
+    margin-right:50px;
+    text-align: center;
+  }
+  .testimonials .cardOnLeft{
+    margin-top:100px;
+  }
+  .testimonials .cardOnRight{
+    margin-top:150px;
+  }
+  .quotesImageEnd{
+    margin-left:310px;
+  }
+}
+
+
+/* small */
+@media (max-width: 767px)
+{ 
+  /* body{
+    background:blue;
+  } */
+  .nav-number{
+    display:none;
+  }
+  .intro{
+    font-size:20px;
+  }
+  .banner{
+    margin-top:60px; 
+  }
+  .req_sticky-btn{
+    font-size:18px;
+  }
+  .crissStanding{
+    width:60%;
+    margin-left:20%;
+    margin-top:100px;
+  }
+  .gallery img{
+    width:25%;
+  }
+  .quotesImageEnd{
+    margin-left:170px;
+  }
+}
+
+/* XS */
+@media (max-width: 424px)
+{ 
+  /* body{
+    background:purple;
+  } */
+  .req_sticky-btn{
+    font-size:16px;
+  }
+  .gallery img{
+    width:33.33333333333333%;
+  }
+}
+
+
 
