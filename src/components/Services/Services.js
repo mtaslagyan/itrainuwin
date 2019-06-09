@@ -55,7 +55,7 @@ class Services extends Component {
       <div className="container">
         <div className="row">
             <div className="col-12 services-info">
-                <h2 className="mb-5 services-title">Services</h2>
+                <h2 className="mb-5 services-title text-center">Services</h2>
                 <div className="row">
                     <div className="col-lg-6 col-12">
                        <div><img className="mr-4" src={Single} data-aos="flip-right" data-aos-duration="1000" alt=""/> <span className="services-offered">Private Lessons</span></div> 
@@ -87,7 +87,7 @@ class Services extends Component {
             <div className="col-12 mt-5">
                 <div className="pricing">
                     <hr/>
-                    <h2 className="my-5 pricing-title">Pricing</h2>
+                    <h2 className="my-5 pricing-title text-center">Pricing</h2>
                     
                     <div className="pricing-info">
                         <div className="row price-item">
