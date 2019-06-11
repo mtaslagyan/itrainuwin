@@ -54,16 +54,17 @@ code {
 
 .banner{
   position:relative;
-  margin-top:120px;
+  margin-top:100px;
   animation-duration: 3s;
   animation-name: fadeIn;
+  height: calc(100vh - 45vh);
 }
 
 .title{
   font-size:20px;
   font-family: "Rock Salt";
   color:white;
-  font-weight:200;
+  font-weight:300;
 }
 
 .intro{
@@ -104,6 +105,15 @@ input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
 input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
 input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
+/* .banner-wrapper{
+  position: relative;
+  display: inline-block;
+  height: 100vh;
+  width: 100%;
+  float: left;
+} */
+
+
 /********************************** NAVBAR  ************************************/
 /* .active-link{
   padding:10px 0px;
@@ -140,8 +150,8 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   display:none;
 }
 .navbar-logo{
-  font-size:40px;
-  font-family: "Rock Salt";
+  font-size:60px;
+  font-family: "Gruppo";
   color:#ffffff;
   margin-left:15%;
 }
@@ -534,7 +544,7 @@ footer{
     position: fixed;
     top: 40%;
     right: -1px;
-    background-color: rgba(230, 230, 230, 0.699);
+    background-color: rgba(230, 230, 230);
     border-radius: 10px;
     font-size: 20px;
     padding: 5px 10px;
@@ -801,13 +811,14 @@ input{
     background:red;
   }
   .navbar-logo{
-    font-size:30px;
+    font-size:40px;
   }
   .query-nav{
     display:none;
   }
   .query-nav2{
-    background:linear-gradient(bottom, rgba(185, 227, 240, 0.4), rgb(116, 211, 240, 0.4));
+    /* background:linear-gradient(bottom, rgba(185, 227, 240, 0.4), rgb(116, 211, 240, 0.4)); */
+    background: rgba(0, 79, 168, 0.479);
     display:block;
   }
   .navbar-divider{
@@ -817,7 +828,7 @@ input{
     font-size:20px;
   }
   .banner{
-   margin-top:80px; 
+   margin-top:130px; 
   }
   .intro{
     font-size:20px;
@@ -826,6 +837,10 @@ input{
   }
   .navbar-contact-info{
     margin-top:30px;
+  }
+  .navbar-phone{
+    margin-top:10px;
+    font-size:18px;
   }
   .banner-requestBtn{
     font-size:20px;
@@ -902,7 +917,7 @@ input{
     font-size:18px;
   }
   .banner{
-    margin-top:60px; 
+    margin-top:110px; 
   }
   .req_sticky-btn{
     font-size:18px;

@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
 import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
 
 
@@ -112,7 +111,9 @@ class Banner extends Component {
                 <a target="_blank" href="https://www.linkedin.com/in/criss-rodriguez-192a22a8"><i class="fab fa-linkedin mx-3"></i></a>     
                 <a target="_blank" href="https://www.facebook.com/criss.rodriguez.75"><i class="fab fa-facebook-square"></i></a>  
             </div>
+
         </div>
+        <div className="banner-wrapper"></div>
     </div>
   )}
 }
