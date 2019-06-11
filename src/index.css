@@ -57,7 +57,7 @@ code {
   margin-top:100px;
   animation-duration: 3s;
   animation-name: fadeIn;
-  height: calc(100vh - 45vh);
+  height: calc(100vh - 40vh);
 }
 
 .title{
@@ -1002,7 +1002,7 @@ input{
     font-size:12px;
   }
   .intro{
-    font-size:12px;
+    font-size:16px;
   }
   .onlineorcall{
     color:rgb(219, 219, 219);
@@ -1148,6 +1148,9 @@ input{
 { 
   body{
     background:rgb(87, 245, 245);
+  }
+  .banner{
+    margin-top:60px;
   }
   .navbar-requestLesson, 
   .navbar-home, 
