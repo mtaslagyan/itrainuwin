@@ -17,7 +17,7 @@ class App extends Component {
           <img className="homeImg" src={BannerImg} alt="banner of Criss playing tennis with green to blue gradient overlay"/>
           <Navbar/>
           <Request_Sticky/>
-          <hr className="navbar-divider mt-0 mt-lg-4"/>
+          {/* <hr className="navbar-divider mt-0 mt-lg-2"/> */}
           <Switch>
             <Route exact path="/" activeStyle={{ color: 'red' }} component={Home}/>
             <Route exact path="/services" activeStyle={{ color: 'red' }} component={Services}/>

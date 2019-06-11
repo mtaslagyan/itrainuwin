@@ -57,13 +57,13 @@ code {
   margin-top:100px;
   animation-duration: 3s;
   animation-name: fadeIn;
-  height: calc(100vh - 40vh);
+  height: calc(100vh - 45vh);
 }
 
 .title{
   font-size:20px;
   font-family: "Rock Salt";
-  color:white;
+  color:rgb(200, 255, 0);
   font-weight:300;
 }
 
@@ -97,6 +97,7 @@ code {
   /* border:transparent; */
 }
 .onlineorcall{
+  /* margin-top:150px; */
   color:rgb(219, 219, 219);
 }
 
@@ -105,20 +106,17 @@ input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
 input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
 input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
-/* .banner-wrapper{
-  position: relative;
-  display: inline-block;
-  height: 100vh;
-  width: 100%;
-  float: left;
-} */
 
 
 /********************************** NAVBAR  ************************************/
-/* .active-link{
-  padding:10px 0px;
-  border-top:solid 1px #031c27;
-} */
+.active-link{
+  border-left:solid 1px #6cd3ff;
+  border-right:solid 1px #6cd3ff;
+  padding:5px;
+  padding-bottom:10px;
+  border-radius:5px;
+  background: rgba(0, 0, 0, 0.178);
+}
 
 .navbar{
   position:relative;
@@ -152,7 +150,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 .navbar-logo{
   font-size:60px;
   font-family: "Gruppo";
-  color:#ffffff;
+  color:rgb(255, 255, 255);
   margin-left:15%;
 }
 .navbar-logo:hover{
@@ -169,6 +167,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   border-radius:40px;
   padding:10px 20px;
   margin-right:5%;
+  margin-top:-10px;
 }
 .navbar-phone:hover{
   text-decoration:none;
@@ -183,20 +182,21 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
  .navbar-bio{
    color:white;
    text-decoration:none;
-   font-size:16px;
+   font-size:20px;
    font-family:'Nunito';
    padding-top:16px;
-   border-bottom:solid 0.5px transparent;
  }
  .navbar-requestLesson:hover, 
  .navbar-home:hover,
  .navbar-pricing:hover,
  .navbar-bio:hover{
-  color:white;
   text-decoration:none;
-  border-bottom:solid 0.5px white;
+  color:rgb(212, 255, 155);
  }
-
+ .navbar-bio{
+   margin-left:60px;
+   margin-right:60px;
+ }
 .banner .fab{
   color:rgb(247, 247, 247);
   font-size:24px;
@@ -205,7 +205,9 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 /* Nav Queries */
 
 .query-nav2{
-  display:none;
+  display:block;
+  background: linear-gradient(left, rgb(0, 153, 255, 0.5), rgba(141, 248, 19, 0.5))
+
 }
 
 /********************************** STYLE AND EXP  ************************************/
@@ -342,7 +344,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 .testimonials-content{
   margin-top: -120px;
-  font-family: "Nunito";
+  /* font-family: "Nunito"; */
   font-size: 18px;
   font-style: italic;
   margin-bottom:30px;
@@ -373,7 +375,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 .SP-title{
   font-size:30px;
   font-family: "Rock Salt";
-  color:white;
+  color:rgb(200, 255, 0);
   font-weight:200;
 }
 .SP-intro{
@@ -452,7 +454,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 .Bio-title{
   font-size:30px;
   font-family: "Rock Salt";
-  color:white;
+  color:rgb(200, 255, 0);
   font-weight:200;
 }
 .Bio-intro{
@@ -498,7 +500,7 @@ footer{
   margin-top:120px;
   color:white;
   padding:50px;
-  background: linear-gradient(bottom, rgb(0, 0, 0), #214e6f)
+  background: linear-gradient(left, rgb(0, 44, 73), rgb(42, 78, 0))
 }
 .footer-title{
   font-family: "Gruppo";
@@ -542,7 +544,7 @@ footer{
 .req_sticky-btn{
     outline: none;
     position: fixed;
-    top: 40%;
+    top: 60%;
     right: -1px;
     background-color: rgba(230, 230, 230);
     border-radius: 10px;
@@ -811,14 +813,14 @@ input{
     background:red;
   }
   .navbar-logo{
-    font-size:40px;
+    font-size:50px;
   }
   .query-nav{
     display:none;
   }
   .query-nav2{
     /* background:linear-gradient(bottom, rgba(185, 227, 240, 0.4), rgb(116, 211, 240, 0.4)); */
-    background: rgba(0, 79, 168, 0.479);
+    background: linear-gradient(left, rgb(0, 153, 255, 0.5), rgba(141, 248, 19, 0.5));
     display:block;
   }
   .navbar-divider{
@@ -839,7 +841,6 @@ input{
     margin-top:30px;
   }
   .navbar-phone{
-    margin-top:10px;
     font-size:18px;
   }
   .banner-requestBtn{
@@ -904,7 +905,15 @@ input{
     background:blue;
   }
   .navbar-logo{
-    font-size:30px;
+    font-size:48px;
+  }
+  .navbar-bio{
+    margin-left:30px;
+    margin-right:30px;
+  }
+  .navbar-phone{
+    margin-top:-10px;
+    font-size:16px;
   }
   .nav-number{
     display:none;
@@ -980,8 +989,12 @@ input{
   body{
     background:purple;
   }
+  .navbar-bio{
+    margin-left:20px;
+    margin-right:20px;
+  }
   .navbar-logo{
-    font-size:30px;
+    font-size:40px;
   }
   .navbar-phone{
     font-size:18px;
@@ -1146,6 +1159,10 @@ input{
 /* XXS */
 @media (max-width: 320px)
 { 
+  .navbar-bio{
+    margin-left:15px;
+    margin-right:15px;
+  }
   body{
     background:rgb(87, 245, 245);
   }
@@ -1159,7 +1176,7 @@ input{
     font-size:12px;
   }
   .navbar-logo{
-    font-size:24px;
+    font-size:34px;
     font-family: "Gruppo";
     color:white;
   }
