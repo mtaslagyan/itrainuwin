@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>  
       
         <hr className="navbar-divider my-1"/>
-        <div className="col-12 query-nav2">
+        <div className="col-12 query-nav2 px-0">
           <div className="px-0 navbar-tabs d-flex justify-content-center">
             <NavLink className="navbar-home2" to="/" exact activeClassName="active-link">Home</NavLink>
             <NavLink className="navbar-bio2 mx-4" to="/qualifications" exact activeClassName="active-link">Qualifications</NavLink>

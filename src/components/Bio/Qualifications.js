@@ -22,7 +22,7 @@ const Bio_Home = () => {
                     <li>CPR Certified</li>
                   </ul>
                 </div>
-                <div className="col-6 col-lg-5">
+                <div className="col-6 col-lg-5 second_row">
                   <ul className="qualifications">
                     <li>Bilingual: English and Spanish</li>
                     <li>24+ years playing experience</li>

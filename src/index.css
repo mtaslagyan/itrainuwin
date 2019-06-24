@@ -763,9 +763,9 @@ input{
 /* for EXP bubbles */
 @media (max-width: 1253px)
 { 
-  body{
+  /* body{
     background:pink;
-  }
+  } */
   .title{
     font-size:34px;
   }
@@ -786,9 +786,9 @@ input{
 /* large */
 @media (max-width: 1199px)
 { 
-  body{
+  /* body{
     background:green;
-  }
+  } */
   .title{
     font-size:31px;
   }
@@ -819,9 +819,9 @@ input{
 /* for EXP bubbles */
 @media (max-width: 1100px)
 { 
-  body{
+  /* body{
     background:orange;
-  }
+  } */
   .title{
     font-size:27px;
   }
@@ -857,9 +857,9 @@ input{
 /* medium */
 @media (max-width: 991.98px)
 { 
-  body{
+  /* body{
     background:red;
-  }
+  } */
   .title{
     font-size:20px;
   }
@@ -933,9 +933,9 @@ input{
 /* small */
 @media (max-width: 767px)
 { 
-  body{
+  /* body{
     background:white;
-  }
+  } */
   .banner-text{
     margin-top:200px;
     text-align:center;
@@ -1056,14 +1056,17 @@ input{
   .navbar-bio2{
     font-size:16px;
   }
+  .onlineorcall{
+    font-size:12px;
+  }
 }
 
 /* XS */
 @media (max-width: 424px)
 { 
-  body{
+  /* body{
     background:purple;
-  }
+  } */
 
   .gallery img{
     width:33.33333333333333%;
@@ -1126,6 +1129,29 @@ input{
   .navbar-bio2{
     font-size:14px;
   }
+  .second_row ul{
+    padding:0;
+  } 
+  .services img{
+    width:50px;
+  }
+  .services-offered{
+    font-size:14px;
+  }
+  .banner-text{
+    padding-left:50px;
+    padding-right:50px;
+  }
+  .homeImg{
+    height:300px;
+  }
+  .teachingStyle-intro{
+    margin-left:0;
+    width:100%;
+  }
+  .teaching-icons{
+    width: 100px;
+  }
 
 }
   
@@ -1133,9 +1159,9 @@ input{
 /* XXS */
 @media (max-width: 320px)
 { 
-  body{
+  /* body{
     background:rgb(87, 245, 245);
-  }
+  } */
   .req_sticky-btn{
     font-size:16px;
   }
@@ -1144,6 +1170,34 @@ input{
   }
   .quotesImageEnd{
     margin-left:80px;
+  }
+  .navbar-requestLesson2, 
+  .navbar-home2, 
+  .navbar-bio2{
+    font-size:12px;
+  }
+  .banner-text{
+    padding-left:20px;
+    padding-right:20px;
+  }
+  .experience-listed li {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  .qualifications li {
+    font-size: 12px;
+  }
+  .pricing-info{
+    font-size:12px;
+  }
+  .pricing-title, 
+  .services-title, 
+  .experience-title, 
+  .teachingStyle-title, 
+  .award-title, 
+  .testimonials-title{
+    font-size:28px;
   }
   
 }
