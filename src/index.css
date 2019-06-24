@@ -790,7 +790,7 @@ input{
     background:green;
   } */
   .title{
-    font-size:31px;
+    font-size:32px;
   }
   .crissStanding{
     margin-top:150px;
@@ -823,7 +823,7 @@ input{
     background:orange;
   } */
   .title{
-    font-size:27px;
+    font-size:30px;
   }
   .banner-text{
     margin-top:200px;
@@ -861,7 +861,7 @@ input{
     background:red;
   } */
   .title{
-    font-size:20px;
+    font-size:30px;
   }
   .intro{
     font-size:18px;
@@ -926,6 +926,10 @@ input{
   .timeline-title{
     font-size:18px;
   }
+  .banner-text{
+    /* padding-left:50px;
+    padding-right:50px; */
+  }
   
 }
 
@@ -936,6 +940,9 @@ input{
   /* body{
     background:white;
   } */
+  .title{
+    font-size:28px;
+  }
   .banner-text{
     margin-top:200px;
     text-align:center;
@@ -1062,12 +1069,14 @@ input{
 }
 
 /* XS */
-@media (max-width: 424px)
+@media (max-width: 425px)
 { 
   /* body{
     background:purple;
   } */
-
+  .title{
+    font-size:28px;
+  }
   .gallery img{
     width:33.33333333333333%;
   }
@@ -1154,7 +1163,13 @@ input{
   }
 
 }
-  
+@media (max-width: 375px)
+{ 
+  .title{
+    font-size:27px;
+  }
+}
+
 
 /* XXS */
 @media (max-width: 320px)
@@ -1199,7 +1214,9 @@ input{
   .testimonials-title{
     font-size:28px;
   }
-  
+  .title{
+    font-size:26px;
+  }
 }
 
 
