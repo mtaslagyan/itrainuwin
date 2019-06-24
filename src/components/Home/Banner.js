@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
+import BannerImg from '../../images/racquets2.png'
+
 
 
 class Banner extends Component {
@@ -47,9 +49,9 @@ class Banner extends Component {
   
     render() {
         return (
-    <div className="container banner">
-    
-        <div className="col-12 text-center">
+    <div className="container-fluid mx-0 px-0 banner">
+        <div className="row">
+        <div className="col-md-7 col-12 banner-text">
             <h1 className="title">
                 {/* You deserve to have an incredible tennis experience in an encouraging and constructive environement. Lessons are designed to make learning enjoyable for everyone of all ages and all levels of play. Through high-level instruction in stroke technique, strategies/tactics, and match play. I am commited to helping you reach your full potential. */}
                 SUCCESS THROUGH GUIDANCE
@@ -57,7 +59,7 @@ class Banner extends Component {
             <h2 className="intro">
                 Through high-level instruction in stroke technique, strategies/tactics, and match play. I am commited to helping you reach your full potential.
             </h2>
-            <div className="mt-sm-5 mt-4 onlineorcall">Request a lesson by form or call phone directly.</div>
+            <div className="mt-3 onlineorcall">Request a lesson by form or call phone directly.</div>
             <div className="banner-btnWrap">
                 <Button className="banner-requestBtn" onClick={this.toggle}>Request Lesson</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle}>
@@ -106,14 +108,20 @@ class Banner extends Component {
                     </ModalBody>
                 </Modal>
             </div>
-            <div className="navbar-contact-info text-center mt-5">
-                <a target="_blank" href="https://www.instagram.com/itrainuwin/"><i class="fab fa-instagram"></i></a>      
+            <div className="navbar-contact-info">
+                <a target="_blank" href="https://www.instagram.com/itrainuwin/"><i class="fab ml-2 fa-instagram"></i></a>      
                 <a target="_blank" href="https://www.linkedin.com/in/criss-rodriguez-192a22a8"><i class="fab fa-linkedin mx-3"></i></a>     
                 <a target="_blank" href="https://www.facebook.com/criss.rodriguez.75"><i class="fab fa-facebook-square"></i></a>  
             </div>
+            <hr className="medium-divider"/>
 
         </div>
-        <div className="banner-wrapper"></div>
+        <div className="col-12 col-md-5">
+            <img className="homeImg" src={BannerImg} alt="banner of Criss playing tennis with green to blue gradient overlay"/>
+        </div>
+        </div>
+        
+        {/* <div className="banner-wrapper"></div> */}
     </div>
   )}
 }
