@@ -1,7 +1,7 @@
 import React from 'react'
 import Awards from './Awards'
 import BannerImg from '../../images/racquets2.png'
-import USPTA from '../../images/usptacertified.png'
+import Uspta from '../../images/usptacertified.png'
 
 const Bio_Home = () => {
   return (
@@ -17,7 +17,7 @@ const Bio_Home = () => {
                 <div className="col-0 col-lg-1"></div>
                 <div className="col-6 col-lg-5">
                   <ul className="qualifications">
-                    <li><img src={USPTA}/></li>
+                    <li><img src={Uspta}/></li>
                     <li>USPTA Certified</li>
                     <li>8+ years coaching experience</li>
                     <li>“10 and under tennis” Certified</li>
