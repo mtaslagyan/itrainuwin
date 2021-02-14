@@ -478,7 +478,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   font-family: "Archivo Black";
   color:#20c444;
   font-weight:200;
-  margin-left:90px;
+  margin-left:85px;
 }
 .Bio-intro{
   margin-top:20px;
@@ -882,7 +882,7 @@ input{
     display:block;
   }
   .Bio-title{
-    margin-left:0px;
+    margin-left:20px;
   }
   .Bio-intro{
     margin-top:20px;
@@ -1156,7 +1156,9 @@ input{
   .teaching-icons{
     width: 100px;
   }
-
+  .Bio-title{
+    margin-left:0px;
+  }
 }
   
 
