@@ -16,8 +16,9 @@ const Bio_Home = () => {
                 <div className="col-0 col-lg-1"></div>
                 <div className="col-6 col-lg-5">
                   <ul className="qualifications">
-                    <li>8+ years coaching experience</li>
+                    <li><img src=""/></li>
                     <li>USPTA Certified</li>
+                    <li>8+ years coaching experience</li>
                     <li>“10 and under tennis” Certified</li>
                     <li>CPR Certified</li>
                   </ul>
