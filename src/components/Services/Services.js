@@ -95,7 +95,7 @@ class Services extends Component {
                                 <div>Private Lesson </div>
                             </div>
                             <div className="col-3 d-flex justify-content-end">
-                                <div>$100</div>
+                                <div>$80</div>
                             </div>
                         </div>
                         <div className="row mt-3 price-item">
