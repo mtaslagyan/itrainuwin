@@ -103,7 +103,7 @@ class Services extends Component {
                                 <div>Semi Private </div>
                             </div>
                             <div className="col-3  d-flex justify-content-end">
-                                <div>$50/player</div>
+                                <div>$100/player</div>
                             </div>
                         </div>
                         <div className="row mt-3 price-item">
