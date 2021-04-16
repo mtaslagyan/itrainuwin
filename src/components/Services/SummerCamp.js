@@ -10,8 +10,15 @@ class SummerCamp extends Component {
         <div className="summercamp">
           <div className="container">
             <div className="row">
-              <div className="col-12 col-lg-6 text-center"><img className="imageflyer1" src={Flyer1} alt="Flyer1 for Summer Camp"/></div>
-              <div className="col-12 col-lg-6 text-center mt-5 mt-lg-0"><img className="imageflyer2" src={Flyer2} alt="Flyer2 for Summer Camp"/></div>
+              <div className="col-12 col-lg-6 text-center"><a href="https://forms.gle/C8UAGW1CA2wL21K19"><img className="imageflyer1" src={Flyer1} alt="Flyer1 for Summer Camp"/></a></div>
+              <div className="col-12 col-lg-6 text-center mt-5 mt-lg-0"><a href="https://forms.gle/C8UAGW1CA2wL21K19"><img className="imageflyer2" src={Flyer2} alt="Flyer2 for Summer Camp"/></a></div>
+            </div>
+            <div className="row">
+                <div className="col-12 text-center">
+                 <div className="banner-btnWrap text-center">
+                    <a href="https://forms.gle/C8UAGW1CA2wL21K19" className="SP-requestBtn">Register For Camp</a>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
