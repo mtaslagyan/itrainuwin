@@ -10,8 +10,8 @@ class SummerCamp extends Component {
         <div className="summercamp">
           <div className="container">
             <div className="row">
-              <div className="col-12 col-md-6"><img className="imageflyer1" src={Flyer1} alt="Flyer1 for Summer Camp"/></div>
-              <div className="col-12 col-md-6"><img className="imageflyer2" src={Flyer2} alt="Flyer2 for Summer Camp"/></div>
+              <div className="col-12 col-lg-6 text-center"><img className="imageflyer1" src={Flyer1} alt="Flyer1 for Summer Camp"/></div>
+              <div className="col-12 col-lg-6 text-center"><img className="imageflyer2" src={Flyer2} alt="Flyer2 for Summer Camp"/></div>
             </div>
           </div>
         </div>
