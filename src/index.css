@@ -49,6 +49,8 @@ code {
 }
 .summer-camp-alert{
   background: #20c444;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .summer-camp-alert a{
  color: #fff;
