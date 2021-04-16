@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
-import Flyer1 from '../../../images/crissflyer1.jpeg'
-import Flyer2 from '../../../images/crissflyer2.jpeg'
+import Flyer1 from '../../images/crissflyer1.jpeg'
+import Flyer2 from '../../images/crissflyer2.jpeg'
 
 class SummerCamp extends Component {
     
