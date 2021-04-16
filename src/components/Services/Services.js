@@ -95,7 +95,7 @@ class Services extends Component {
                                 <div>Private Lesson </div>
                             </div>
                             <div className="col-3 d-flex justify-content-end">
-                                <div>$80</div>
+                                <div>$100</div>
                             </div>
                         </div>
                         <div className="row mt-3 price-item">
@@ -103,12 +103,12 @@ class Services extends Component {
                                 <div>Semi Private </div>
                             </div>
                             <div className="col-3  d-flex justify-content-end">
-                                <div>$80/player</div>
+                                <div>$50/player</div>
                             </div>
                         </div>
                         <div className="row mt-3 price-item">
                             <div className="col-9">
-                                <div>Groups (3+ players) </div>
+                                <div>Groups (3 players) </div>
                             </div>
                             <div className="col-3 d-flex justify-content-end">
                                 <div>$35/player</div>
@@ -116,20 +116,20 @@ class Services extends Component {
                         </div>
                         <div className="row mt-3 price-item">
                             <div className="col-9">
-                                <div>Clinics</div>
+                                <div>Clinics (4+ players)</div>
                             </div>
                             <div className="col-3 d-flex justify-content-end">
                                 <div>$25/player</div>
                             </div>
                         </div>
-                        <div className="row mt-3 price-item">
-                            <div className="col-9">
-                                <div>Hitting Sessions</div>
-                            </div>
-                            <div className="col-3 d-flex justify-content-end">
-                                <div>$60</div>
-                            </div>
-                        </div>
+//                         <div className="row mt-3 price-item">
+//                             <div className="col-9">
+//                                 <div>Hitting Sessions</div>
+//                             </div>
+//                             <div className="col-3 d-flex justify-content-end">
+//                                 <div>$60</div>
+//                             </div>
+//                         </div>
                     </div>
                 </div>
             </div>
