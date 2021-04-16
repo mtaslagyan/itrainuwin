@@ -44,7 +44,9 @@ code {
 } */
 
 /********************************** BANNER  ************************************/
-
+.summercamp{
+  margin-top:200px;
+}
 .summer-camp-alert{
   background: #20c444;
 }
