@@ -27,9 +27,8 @@ const Navbar = () => {
             <div>
               Summer Camp - Register Today! 
             </div>
-          </div>
-        </div>
-      </div>
+         </div>
+       </div>
     </div>
   )
 }
