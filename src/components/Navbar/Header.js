@@ -11,12 +11,6 @@ const Header = () => {
             <NavLink className="navbar-about ml-4" to="/about">About</NavLink>
             <NavLink className="navbar-contact ml-4" to="/contact">Contact</NavLink>
         </div>
-        <div className="col-12 text-left summer-camp-alert">
-            <div>
-              Summer Camp - Register Today! 
-            </div>
-          </div>
-        </div>
     </div>
   )
 }
