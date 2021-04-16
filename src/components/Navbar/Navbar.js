@@ -23,6 +23,12 @@ const Navbar = () => {
             <NavLink className="navbar-requestLesson2" to="/services" exact activeClassName="active-link">Services & Pricing</NavLink>
           </div>  
         </div>
+        <div className="col-12 text-left summer-camp-alert">
+            <div>
+              Summer Camp - Register Today! 
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
