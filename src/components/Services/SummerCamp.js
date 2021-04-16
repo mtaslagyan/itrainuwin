@@ -47,7 +47,7 @@ class SummerCamp extends Component {
   return (
     <div className="services">
       <div className="container">
-        <div>
+        <div className="row">
           here is the flyer
         </div>
         <div className="row mt-5">
