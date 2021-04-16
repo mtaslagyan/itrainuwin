@@ -65,7 +65,13 @@ font-family: Nunito;
 padding-top: 10px;
 padding-bottom: 10px;
  text-decoration:none;
+transition: .25s ease-in-out;
 }
+
+.summer-camp-alert a:hover{
+ color: #3ca6f1;
+}
+
 .imageflyer1, .imageflyer2 {
   width:90%;
 }
