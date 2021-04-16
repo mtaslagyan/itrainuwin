@@ -9,7 +9,7 @@ class SummerCamp extends Component {
       return (
         <div className="summercamp">
           <div className="container">
-            <div className="row">
+            <div className="row summercamp-flyers">
               <div className="col-12 col-lg-6 text-center"><a href="https://forms.gle/C8UAGW1CA2wL21K19"><img className="imageflyer1" src={Flyer1} alt="Flyer1 for Summer Camp"/></a></div>
               <div className="col-12 col-lg-6 text-center mt-5 mt-lg-0"><a href="https://forms.gle/C8UAGW1CA2wL21K19"><img className="imageflyer2" src={Flyer2} alt="Flyer2 for Summer Camp"/></a></div>
             </div>
