@@ -47,11 +47,14 @@ code {
 
 .summer-camp-alert{
   background: #20c444;
-color: #fff;
+}
+.summer-camp-alert a{
+ color: #fff;
 font-size: 26px;
 font-family: Nunito;
 padding-top: 10px;
 padding-bottom: 10px;
+ text-decoration:none;
 }
 
 .homeImg{
