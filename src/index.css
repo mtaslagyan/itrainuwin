@@ -52,6 +52,12 @@ code {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.summercamp-flyers a{
+  transition: .25s ease-in-out;
+}
+.summercamp-flyers a:hover{
+  border:#20c444 solid 2px;
+}
 .summer-camp-alert a{
  color: #fff;
 font-size: 26px;
