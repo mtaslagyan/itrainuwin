@@ -24,9 +24,7 @@ const Navbar = () => {
           </div>  
         </div>
         <div className="col-12 text-center summer-camp-alert">
-            <div>
-              Summer Camp - Register Today! 
-            </div>
+              <Link className="" to="/summercamp">Summer Camp - Register Today! </Link>
          </div>
        </div>
     </div>
