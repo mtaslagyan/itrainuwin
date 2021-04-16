@@ -873,6 +873,12 @@ input{
 /* medium */
 @media (max-width: 991.98px)
 { 
+  .summer-camp-alert{
+    margin-top:20px;	
+  }
+  .summer-camp-alert a{
+    font-size:18px;
+  }
   /* body{
     background:red;
   } */
