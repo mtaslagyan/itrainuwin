@@ -57,9 +57,9 @@ class Banner extends Component {
                 SUCCESS THROUGH GUIDANCE
             </h1>
             <h2 className="intro">
-                Through high-level instruction in stroke technique, strategies/tactics, and match play. I am commited to helping you reach your full potential.
+                Through high-level instruction in stroke technique, strategies/tactics, and match play. We are commited to helping you reach your full potential.
             </h2>
-            <div className="mt-3 onlineorcall">Request a lesson by form or call phone directly.</div>
+            {/* <div className="mt-3 onlineorcall">Request a lesson by form or call phone directly.</div> */}
             <div className="banner-btnWrap">
                 <Button className="banner-requestBtn" onClick={this.toggle}>Request Lesson</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle}>
@@ -94,6 +94,10 @@ class Banner extends Component {
                             <input placeholder="Lesson Type" onChange={this.handleChange} type="text" name="lessontype"/>
                         </div>
                         <div className="form-fields">
+                            {/* <label htmlFor="lessontype">Lesson Type: <br/></label>  */}
+                            <input placeholder="Preferred Coach" onChange={this.handleChange} type="text" name="preferredcoach"/>
+                        </div>
+                        <div className="form-fields">
                             {/* <label htmlFor="notes">About Yourself: <br/></label>  */}
                             <input placeholder="About Yourself" onChange={this.handleChange} type="text" name="notes" maxlength="300"/>
                         </div>
@@ -112,6 +116,7 @@ class Banner extends Component {
                 <a target="_blank" href="https://www.instagram.com/itrainuwin/"><i class="fab ml-2 fa-instagram"></i></a>      
                 <a target="_blank" href="https://www.linkedin.com/in/criss-rodriguez-192a22a8"><i class="fab fa-linkedin mx-3"></i></a>     
                 <a target="_blank" href="https://www.facebook.com/criss.rodriguez.75"><i class="fab fa-facebook-square"></i></a>  
+                <a target="_blank" href="https://www.yelp.com/biz/itrainuwin-tennis-woodland-hills"><i class="fab ml-3 fa-yelp"></i></a>  
             </div>
             <hr className="medium-divider"/>
 

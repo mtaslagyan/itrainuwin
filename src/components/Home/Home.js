@@ -12,7 +12,7 @@ const Home = () => {
       <Banner/>      
       <div className="container">
         <div className="styleAndExperience"><div className="col-12 pt-md-5 pt-0"><TeachingStyle/></div>
-            <div className="col-12 mt-sm-5 mt-0 pt-md-5 pt-0"><Experience/></div>
+            {/* <div className="col-12 mt-sm-5 mt-0 pt-md-5 pt-0"><Experience/></div> */}
         </div>
       </div>
       <hr className="styleGalleryHoriDiv"/>

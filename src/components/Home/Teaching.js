@@ -10,12 +10,12 @@ AOS.init();
 const Teaching = () => {
   return (
     <div className="container teachingStyle">
-    <h2 className="teachingStyle-title text-center mb-4">My Philosophy</h2>
+    <h2 className="teachingStyle-title text-center mb-4">Our Philosophy</h2>
         
         <div className="row">
           <div className="col-12 text-center">
             <div className="teachingStyle-intro">
-              I believe in taking a holistic approach when coaching my students in order to help them attain all of their personal and performance goals. That is why my coaching style is designed to target 3 different aspects: 
+              We believe in taking a holistic approach when coaching our students in order to help them attain all of their personal and performance goals. That is why our coaching style is designed to target 3 different aspects: 
             </div>
             
           </div>
@@ -38,7 +38,7 @@ const Teaching = () => {
         <div className="row">
           <div className="col-12">
             <div className="teachingStyle-intro mt-5 text-center">
-              Regardless of your current level and tennis-related goals, whether it is to perfect your technique, improve overall shot production, understand strategy/tactics, mental toughness, fitness/footwork, general mind-body awareness, I am certain that based on my experience, skills, and love for the sport, we will create a customized and tailored approach to your learning style.
+              Regardless of your current level and tennis-related goals, whether it is to perfect your technique, improve overall shot production, understand strategy/tactics, mental toughness, fitness/footwork, general mind-body awareness, we are certain that based on my experience, skills, and love for the sport, we will create a customized and tailored approach to your learning style.
             </div>
           </div>
         </div>

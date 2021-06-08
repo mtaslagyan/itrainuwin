@@ -44,37 +44,7 @@ code {
 } */
 
 /********************************** BANNER  ************************************/
-.summercamp{
-  margin-top:200px;
-}
-.summer-camp-alert{
-  background: #20c444;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.summercamp-flyers a{
-  transition: .25s ease-in-out;
-}
-.summercamp-flyers a:hover{
-  border:#20c444 solid 2px;
-}
-.summer-camp-alert a{
- color: #fff;
-font-size: 26px;
-font-family: Nunito;
-padding-top: 10px;
-padding-bottom: 10px;
- text-decoration:none;
-transition: .25s ease-in-out;
-}
 
-.summer-camp-alert a:hover{
- color: black;
-}
-
-.imageflyer1, .imageflyer2 {
-  width:90%;
-}
 
 .homeImg{
   width: 100%;
@@ -112,14 +82,14 @@ transition: .25s ease-in-out;
   background:#3ca6f1;
   text-decoration: none;
   font-size:24px;
-  border:solid rgba(255, 255, 255, 0.701) 1px; 
+  border:none; 
   border-radius:40px;
   padding: 12px 25px;
 }
 .banner-requestBtn:hover{
   color:white;
   text-decoration: none;
-  background:#89c6f18f;
+  background:#20c444;
   /* border:transparent; */
 }
 .onlineorcall{
@@ -130,6 +100,9 @@ transition: .25s ease-in-out;
   margin-top:10px;
   color:rgb(80, 80, 80);
   font-size:24px;
+}
+.banner .fab:hover{
+  color:#20c444;
 }
 
 .medium-divider{
@@ -145,12 +118,8 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 /********************************** NAVBAR  ************************************/
 .active-link{
-  border-left:solid 1px #6cd3ff;
-  border-right:solid 1px #6cd3ff;
-  padding:5px;
-  padding-bottom:10px;
-  border-radius:5px;
-  background: rgba(0, 0, 0, 0.178);
+  border-bottom:solid 1px #6cd3ff;
+  padding-bottom:5px;
 }
 
 .navbar{
@@ -159,7 +128,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   animation-name:slideFromTop;
   animation-duration:2s;
   background:rgba(0, 0, 0, 0.701);
-  padding:0;
+  padding-top:0;
   margin-top:0;
   z-index:1000;
 }
@@ -234,7 +203,6 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
  }
  .navbar-divider{
    display:none;
-   
    color:white;
  }
 
@@ -508,7 +476,6 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   font-family: "Archivo Black";
   color:#20c444;
   font-weight:200;
-  margin-left:85px;
 }
 .Bio-intro{
   margin-top:20px;
@@ -821,7 +788,7 @@ input{
     background:green;
   } */
   .title{
-    font-size:31px;
+    font-size:32px;
   }
   .crissStanding{
     margin-top:150px;
@@ -854,7 +821,7 @@ input{
     background:orange;
   } */
   .title{
-    font-size:27px;
+    font-size:30px;
   }
   .banner-text{
     margin-top:200px;
@@ -888,17 +855,11 @@ input{
 /* medium */
 @media (max-width: 991.98px)
 { 
-  .summer-camp-alert{
-    margin-top:20px;	
-  }
-  .summer-camp-alert a{
-    font-size:18px;
-  }
   /* body{
     background:red;
   } */
   .title{
-    font-size:20px;
+    font-size:30px;
   }
   .intro{
     font-size:18px;
@@ -916,9 +877,6 @@ input{
   }
   .navbar-divider{
     display:block;
-  }
-  .Bio-title{
-    margin-left:20px;
   }
   .Bio-intro{
     margin-top:20px;
@@ -966,6 +924,10 @@ input{
   .timeline-title{
     font-size:18px;
   }
+  .banner-text{
+    /* padding-left:50px;
+    padding-right:50px; */
+  }
   
 }
 
@@ -976,6 +938,9 @@ input{
   /* body{
     background:white;
   } */
+  .title{
+    font-size:28px;
+  }
   .banner-text{
     margin-top:200px;
     text-align:center;
@@ -985,6 +950,7 @@ input{
   .banner .fab{
     margin-top:0px;
   }
+
   .navbar-contact-info{
     margin-bottom:60px;
     margin-top:40px;
@@ -1102,12 +1068,14 @@ input{
 }
 
 /* XS */
-@media (max-width: 424px)
+@media (max-width: 425px)
 { 
   /* body{
     background:purple;
   } */
-
+  .title{
+    font-size:28px;
+  }
   .gallery img{
     width:33.33333333333333%;
   }
@@ -1192,11 +1160,15 @@ input{
   .teaching-icons{
     width: 100px;
   }
-  .Bio-title{
-    margin-left:0px;
+
+}
+@media (max-width: 375px)
+{ 
+  .title{
+    font-size:27px;
   }
 }
-  
+
 
 /* XXS */
 @media (max-width: 320px)
@@ -1241,7 +1213,9 @@ input{
   .testimonials-title{
     font-size:28px;
   }
-  
+  .title{
+    font-size:26px;
+  }
 }
 
 
@@ -1709,3 +1683,22 @@ input{
     font-size:14px;
   }
 } */
+
+/* COACHES */
+.coachcontent{
+  border-bottom:solid rgb(124, 124, 124) 1px;
+}
+.coachbiodivider{
+  border-bottom:solid rgb(124, 124, 124) 1px;
+}
+.coachBio{
+  margin-bottom:25px;
+  padding-bottom:25px;
+}
+.coachBio h2{
+  font-size:24px;
+  font-family:"Nunito";
+}
+.coachBio img{
+  width:60%;
+}

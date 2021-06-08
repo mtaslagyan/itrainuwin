@@ -83,16 +83,16 @@ class Services extends Component {
             </div>
         </div>
         <div className="row">
-
-            <div className="col-12 mt-5">
+           <div className="col-12 mt-5">
+                <hr/>
+                <h2 className="my-5 pricing-title text-center">Pricing</h2>
+           </div>
+            <div className="col-5">
                 <div className="pricing">
-                    <hr/>
-                    <h2 className="my-5 pricing-title text-center">Pricing</h2>
-                    
                     <div className="pricing-info">
                         <div className="row price-item">
                             <div className="col-9">
-                                <div>Private Lesson </div>
+                                <div>Director Private Lesson </div>
                             </div>
                             <div className="col-3 d-flex justify-content-end">
                                 <div>$100</div>
@@ -108,18 +108,64 @@ class Services extends Component {
                         </div>
                         <div className="row mt-3 price-item">
                             <div className="col-9">
-                                <div>Groups (3 players) </div>
+                                <div>Group Lesson (3 players) </div>
                             </div>
                             <div className="col-3 d-flex justify-content-end">
-                                <div>$35/player</div>
+                                <div>$33/player</div>
                             </div>
                         </div>
                         <div className="row mt-3 price-item">
                             <div className="col-9">
-                                <div>Clinics (4+ players)</div>
+                                <div>Clinic (4 players) </div>
                             </div>
                             <div className="col-3 d-flex justify-content-end">
                                 <div>$25/player</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="offset-1 col-6">
+                <div className="pricing">
+                    <div className="pricing-info">
+                        <div className="row price-item">
+                            <div className="col-9">
+                                <div>Performance Coach Private Lesson </div>
+                            </div>
+                            <div className="col-3 d-flex justify-content-end">
+                                <div>$80</div>
+                            </div>
+                        </div>
+                        <div className="row mt-3 price-item">
+                            <div className="col-9">
+                                <div>Semi Private </div>
+                            </div>
+                            <div className="col-3  d-flex justify-content-end">
+                                <div>$40/player</div>
+                            </div>
+                        </div>
+                        <div className="row mt-3 price-item">
+                            <div className="col-9">
+                                <div>Group Lesson (3 players) </div>
+                            </div>
+                            <div className="col-3 d-flex justify-content-end">
+                                <div>$27/player</div>
+                            </div>
+                        </div>
+                        <div className="row mt-3 price-item">
+                            <div className="col-9">
+                                <div>Clinic (4 players) </div>
+                            </div>
+                            <div className="col-3 d-flex justify-content-end">
+                                <div>$25/player</div>
+                            </div>
+                        </div>
+                        <div className="row mt-3 price-item">
+                            <div className="col-9">
+                                <div>Hitting Sessions </div>
+                            </div>
+                            <div className="col-3 d-flex justify-content-end">
+                                <div>$80</div>
                             </div>
                         </div>
                     </div>
@@ -160,6 +206,10 @@ class Services extends Component {
                         <div className="form-fields">
                             {/* <label htmlFor="lessontype">Lesson Type: <br/></label>  */}
                             <input placeholder="Lesson Type" onChange={this.handleChange} type="text" name="lessontype"/>
+                        </div>
+                        <div className="form-fields">
+                            {/* <label htmlFor="lessontype">Lesson Type: <br/></label>  */}
+                            <input placeholder="Preferred Coach" onChange={this.handleChange} type="text" name="preferredcoach"/>
                         </div>
                         <div className="form-fields">
                             {/* <label htmlFor="notes">About Yourself: <br/></label>  */}

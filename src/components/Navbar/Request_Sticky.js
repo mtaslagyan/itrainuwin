@@ -82,6 +82,10 @@ class Request_Sticky extends Component {
                 <input placeholder="Lesson Type" onChange={this.handleChange} type="text" name="lessontype"/>
               </div>
               <div className="form-fields">
+                  {/* <label htmlFor="lessontype">Lesson Type: <br/></label>  */}
+                  <input placeholder="Preferred Coach" onChange={this.handleChange} type="text" name="preferredcoach"/>
+              </div>
+              <div className="form-fields">
                 {/* <label htmlFor="notes">About Yourself: <br/></label>  */}
                 <input placeholder="About Yourself" onChange={this.handleChange} type="text" name="notes" maxlength="300"/>
               </div>
