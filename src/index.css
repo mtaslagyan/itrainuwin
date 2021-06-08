@@ -52,7 +52,7 @@ code {
 }
 
 .banner-text{
-  margin-top:200px;
+  margin-top:50px;
   padding-left:100px;
   animation-duration: 3s;
   animation-name: fadeIn;
@@ -823,7 +823,7 @@ input{
     font-size:30px;
   }
   .banner-text{
-    margin-top:200px;
+    margin-top:50px;
   }
   .banner-requestBtn{
     font-size:22px;
@@ -941,7 +941,7 @@ input{
     font-size:28px;
   }
   .banner-text{
-    margin-top:200px;
+    margin-top:50px;
     text-align:center;
     padding-left:100px;
     padding-right:100px;
