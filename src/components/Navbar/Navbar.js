@@ -15,14 +15,17 @@ const Navbar = () => {
           <NavLink className="query-nav navbar-requestLesson" to="/services" exact activeClassName="active-link">Services & Pricing</NavLink>
           <a className="navbar-phone ml-4" href="tel:+18188095388"><span className="nav-number">(818) 809-5388</span> <i className="fas fa-phone mx-1"></i></a>
         </div>  
-      
         <hr className="navbar-divider my-1"/>
         <div className="col-12 query-nav2 px-0">
           <div className="px-0 navbar-tabs d-flex justify-content-center">
             <NavLink className="navbar-home2" to="/" exact activeClassName="active-link">Home</NavLink>
-            <NavLink className="navbar-bio2 mx-4" to="/qualifications" exact activeClassName="active-link">Qualifications</NavLink>
+            {/* <NavLink className="navbar-bio2 mx-4" to="/qualifications" exact activeClassName="active-link">Qualifications</NavLink> */}
+            <NavLink className="query-nav mx-4 coachesnav" to="/coaches" exact activeClassName="active-link">Coaches</NavLink>
             <NavLink className="navbar-requestLesson2" to="/services" exact activeClassName="active-link">Services & Pricing</NavLink>
-          </div>  
+          </div>
+        </div>
+        <div className="col-12 header-summercamp">
+            <div><NavLink to="/summercamp" exact activeClassName="active-link">Summer Camp Registration</NavLink></div>
         </div>
       </div>
     </div>

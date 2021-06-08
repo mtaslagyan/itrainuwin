@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home/Home'
 import Footer from './components/Footer/Footer'
 import Services from './components/Services/SP_Home'
+import SummerCamp from './components/Services/SummerCamp'
 // import BannerImg from './images/crissbanner3.png'
 import Qualifications from './components/Bio/Qualifications'
 import Coaches from './components/Bio/Coaches'
@@ -22,6 +23,7 @@ class App extends Component {
             <Route exact path="/services" activeStyle={{ color: 'red' }} component={Services}/>
             <Route exact path="/qualifications" activeStyle={{ color: 'red' }} component={Qualifications}/>
             <Route exact path="/coaches" activeStyle={{ color: 'red' }} component={Coaches}/>
+            <Route exact path="/summercamp" activeStyle={{ color: 'red' }} component={SummerCamp}/>
           </Switch>
           <Footer/>
         </div>
