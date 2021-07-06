@@ -19,6 +19,20 @@ const Coaches = () => {
                 <div className="col-9">
                     <h2>Criss Rodriguez : Co-Director</h2>
                     <p>Coach Criss has been coaching professional tennis for 6+ years in Los Angeles, CA. Born and raised in Havana, Cuba; coach Criss was part of the Cuban National Team, where she trained under a rigorous curriculum for top nationally ranked student-athletes and future Federation Cup team members. Coach Criss played college tennis at the Division I level, at California State University Northridge (CSUN). She began coaching High School level tennis for a college-preparatory school (Harvard-Westlake High School), where she coached the team to CIF finals two years in a row. Simultaneously, coach Criss coached junior-players from all levels (beginners to high-performance juniors) privately. Currently, she is the Head coach for the Calabasas High School girls tennis program. She has run junior-camps and clinics in the San Fernando Valley for 6+ years, contributing to the community and helping players improve their skills, she now looks forward to launching her own (and coach Josh’s) camp in the city of Calabasas and helping players in the community enjoy the game of tennis.</p>
+                    <ul>
+                      <h4>Qualifications</h4>
+                      <li>25 years of playing experience</li>
+                      <li>9 years of coaching experience</li>
+                      <li>Former Division I Player</li>
+                      <li>USPTA Certified</li>
+                      <li>10 and Under Certified</li>
+                      <li>CPR Certified</li>
+                      <li>Bilingual-English and Spanish</li>
+                    </ul>
+                    <ul>
+                      <h4>Career Awards</h4>
+                      
+                    </ul>
                 </div>
             </div>
             <div className="row coachBio">
@@ -28,6 +42,13 @@ const Coaches = () => {
                 <div className="col-9">
                     <h2>Josh Wiseman : Co-Director</h2>
                     <p>Coach Josh has been a tennis teaching professional for over 20 years in Southern California. He is currently the Head Coach for the Boy's Tennis Program at Calabasas High School. In addition, he is Co-Director for the Coach Criss & Josh Tennis Camp. Coach Josh has facilitated local high performance tennis academies and also was the tennis coach for Harvard-Westlake Middle School and UCLA tennis camps. One of Coach Josh’s highlights was capturing the 2019 CIF Southern Section title for Calabasas high school boys tennis team. Coach Josh enjoys developing junior tennis players from all levels and has a passion for the sport of tennis.</p>
+                    <ul>
+                      <h4>Qualifications</h4>
+                      <li>35 years playing experience</li>
+                      <li>20 years coaching experience</li>
+                      <li>Former Division III player </li>
+                      <li>CPR/First Aid Certified</li>
+                    </ul>
                 </div>
             </div>
             <div className="row">
