@@ -61,7 +61,7 @@ class Banner extends Component {
             </h2>
             {/* <div className="mt-3 onlineorcall">Request a lesson by form or call phone directly.</div> */}
             <div className="banner-btnWrap">
-                <a href="https://docs.google.com/forms/d/1-psI_och4kSnEA_8fEhFcPp9FMXL55M9R6JUyKWgrmE/edit" className="banner-requestBtn">Request Lesson</a>
+                <a target="blank" href="https://docs.google.com/forms/d/1-psI_och4kSnEA_8fEhFcPp9FMXL55M9R6JUyKWgrmE/edit" className="banner-requestBtn">Request Lesson</a>
                 <Modal isOpen={this.state.modal} toggle={this.toggle}>
                     <ModalHeader className="form-header text-center" toggle={this.toggle}>Request a Lesson</ModalHeader>
                     <ModalBody>
