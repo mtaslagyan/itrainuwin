@@ -388,7 +388,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   
 }
 .SP_content{
-  margin-top:50px;
+  margin-top:100px;
   animation-duration: 3s;
   animation-name: fadeIn;
   padding-left:100px;
