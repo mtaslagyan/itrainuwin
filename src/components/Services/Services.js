@@ -162,6 +162,14 @@ class Services extends Component {
                         </div>
                         <div className="row mt-3 price-item">
                             <div className="col-9">
+                                <div>Cardio Tennis (4+ players) </div>
+                            </div>
+                            <div className="col-3 d-flex justify-content-end">
+                                <div>$30/player</div>
+                            </div>
+                        </div>
+                        <div className="row mt-3 price-item">
+                            <div className="col-9">
                                 <div>Hitting Sessions </div>
                             </div>
                             <div className="col-3 d-flex justify-content-end">
