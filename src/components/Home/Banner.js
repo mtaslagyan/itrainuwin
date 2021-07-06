@@ -54,10 +54,10 @@ class Banner extends Component {
         <div className="col-md-7 col-12 banner-text">
             <h1 className="title">
                 {/* You deserve to have an incredible tennis experience in an encouraging and constructive environement. Lessons are designed to make learning enjoyable for everyone of all ages and all levels of play. Through high-level instruction in stroke technique, strategies/tactics, and match play. I am commited to helping you reach your full potential. */}
-                SUCCESS THROUGH GUIDANCE
+                WHO WE ARE
             </h1>
             <h2 className="intro">
-                Through high-level instruction in stroke technique, strategies/tactics, and match play. We are commited to helping you reach your full potential.
+                A premier tennis coaching service serving areas in the Calabasas/San Fernando Valley. We offer private lessons, semi-privates, clinics, summer, winter, and spring tennis camps in our local communities.
             </h2>
             {/* <div className="mt-3 onlineorcall">Request a lesson by form or call phone directly.</div> */}
             <div className="banner-btnWrap">
