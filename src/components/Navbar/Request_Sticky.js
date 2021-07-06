@@ -49,7 +49,7 @@ class Request_Sticky extends Component {
     return (
 
       <div>
-        <a href="https://docs.google.com/forms/d/1-psI_och4kSnEA_8fEhFcPp9FMXL55M9R6JUyKWgrmE/edit" className="req_sticky-btn">Request Lesson</a>
+        <a  target="blank" href="https://docs.google.com/forms/d/1-psI_och4kSnEA_8fEhFcPp9FMXL55M9R6JUyKWgrmE/edit" className="req_sticky-btn">Request Lesson</a>
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
           <ModalHeader className="form-header text-center" toggle={this.toggle}>Request a Lesson</ModalHeader>
           <ModalBody>
