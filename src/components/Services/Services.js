@@ -175,7 +175,7 @@ class Services extends Component {
         <div className="row mt-5">
             <div className="col-12">
                 <div className="banner-btnWrap text-center">
-                    <Button className="SP-requestBtn" onClick={this.toggle}>Request Lesson</Button>
+                    <Button className="SP-requestBtn" target="blank" href="https://docs.google.com/forms/d/1-psI_och4kSnEA_8fEhFcPp9FMXL55M9R6JUyKWgrmE/edit">Request Lesson</Button>
                     <Modal isOpen={this.state.modal} toggle={this.toggle}>
                     <ModalHeader className="form-header text-center" toggle={this.toggle}>Request a Lesson</ModalHeader>
                     <ModalBody>
